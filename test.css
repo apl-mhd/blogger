@@ -1,50 +1,13 @@
-body{
-  margin: 0;
-}
-
-ul{
-  list-style: none;
-}
-
-
-
-nav{
+.a > .b, .c{
 
   height: 200px;
-  background: rosybrown;
-  color: #ffffff;
-
+  width: 200px;
+  background: red;
 }
 
-
-.nav-menu{
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.a + div{
+  height: 100px;
+  width: 100px;
+  background:grey;
+  overflow:scroll;
 }
-
-.menu{
-  /* border: 1px solid red; */
-}
-
-ul.nav-items{
-  border: 1px solid black;
-   display: flex;
-   
-  /*flex-direction: row; */
-  /* justify-content: space-around; */
-}
-
-
-.logo{
-  border: 1px solid black;
-}
-
-.collapse{
-  position: absolute;
-  border: 1px solid red;
-  width: 100%;
-  top: 0;
-}
-
